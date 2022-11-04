@@ -1,6 +1,6 @@
 import gym
 
-env = gym.make('CartPole-v1', render_mode="human")
+env = gym.make('BipedalWalker-v3', render_mode="human")
 state = env.reset()
 
 while True:
